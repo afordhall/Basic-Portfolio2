@@ -10,6 +10,8 @@ body {
     box-sizing: border-box;
   }
 
+
+
   nav a {
     display: inline-block;
     padding-left: 15px;
@@ -100,4 +102,8 @@ body {
       color: #4aaaa5
   }
 
-  
+  .pic {
+      padding: auto;
+      margin: 100px;
+      height: 150px;
+  }
