@@ -3,7 +3,24 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background-image: url("./images/IMG_1302.JPG");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;
+
+  }
+
+  .overlay-dark:before {
+    position: absolute;
+    content: "";
+    background: #2a354f;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    z-index: 0;
   }
 
   * {
@@ -23,11 +40,16 @@ body {
   }
  
 .col-sm-4 {
-     background-color: #4aaaa5;
-     color: white;
+     background-color:white;
+     color: black;
     
 
   }
+
+.col-sm {
+  background-color: white;
+  color: #ffffff;
+}
 
 .row {
     max-width: 900px;
@@ -43,7 +65,10 @@ body {
 }
 
 .col {
-    margin-bottom: 0
+    margin-bottom: 0;
+    background-color: white;
+    text: black
+    
 }
 
 .row-4 {
@@ -58,7 +83,7 @@ body {
     height: 50px;
 }
 
- contact page 
+ /* contact page  */
 
 #contact-form ul {
     margin-bottom: 20px;
@@ -99,7 +124,7 @@ body {
   }
 
     .title {
-      color: #4aaaa5
+      color: orange;
   }
 
   .pic {
@@ -113,13 +138,13 @@ body {
   .work {
     position: relative;
     float: left;
-    width: 274px;
+    width: 200px;
     margin: 20px 0 25px;
     overflow: auto;
     cursor: pointer;
+    background-color: white ;
   }
 
-  
   
   .work:nth-child(even) {
     margin-right: 40px;
@@ -141,7 +166,7 @@ body {
     line-height: 30px;
     color: #ffffff;
     text-align: center;
-    background: #4aaaa5;
+    background: black;
     border-bottom: 0;
   }
   
