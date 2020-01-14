@@ -79,9 +79,10 @@ body {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid #04145c;
     height: 50px;
 }
+
 
  /* contact page  */
 
@@ -119,18 +120,23 @@ body {
     font-size: 18px;
     color: #ffffff;
     cursor: pointer;
-    background: #4aaaa5;
+    background: rgb(46, 241, 46);
     border: 0 none;
   }
 
     .title {
-      color: orange;
+      color: #04145c;
   }
 
   .pic {
       padding: auto;
       margin: 100px;
       height: 150px;
+  }
+
+  h1{
+    color: #04145c;
+    outline-color: rgb(46, 241, 46);
   }
 
   /* Profolio Page */
