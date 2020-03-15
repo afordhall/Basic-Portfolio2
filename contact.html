@@ -38,25 +38,33 @@
 
     <div id="main-container" class="container">
       <section class="main-section">
-        <h1 style="color:rgb(46, 241, 46);">Contact</h1>
   
-        <form id="contact-form">
-          <ul>
-            <li>
-              <label for="name" style="color: rgb(46, 241, 46)">Name</label>
-              <p style="font-family: Georgia, 'Times New Roman', Times, serif;color: white;">Aris Ford-Hall</p>
-            </li>
-            <li>
-              <label for="email" style="color: rgb(46, 241, 46)">Email</label>
-              <p style="font-family: Georgia, 'Times New Roman', Times, serif;color: white;">adfh91@yahoo.com</pstyle="font-family: Georgia, 'Times New Roman', Times, serif;">
-            </li>
-            <li>
-              <label for="message" style="color: rgb(46, 241, 46)">Phone</label>
-              <p style="font-family: Georgia, 'Times New Roman', Times, serif; size: 30px; color: white;">216-555-5555</p>
-            </li>
-          </ul>
-        
-        </form>
+
+        <section class="contact">
+          <div class="container">
+          <h1 class="contact-heading" style="color:rgb(46, 241, 46)">CONTACT ME</h1>
+  
+            <form action="" method="post">
+              <fieldset>
+              <ul>
+                <div class="contact__container">
+                  <input class="contact__input" type="text" placeholder="Enter Name" id="name" name="user_name">
+                </div>
+                <br>
+                <div class="contact__container">
+                  <input class="contact__input" type="text" placeholder="Enter Email" id="email" name="user_email">
+                </div>
+                <br>
+                <div class="contact__container">
+                  <textarea class="contact__input" type="text" placeholder="Type your message here..." id="message" name="user_message"></textarea>
+                </div>
+              </ul>
+  
+              <button class="btn btn-primary btn-submit" type="submit" style="color: rgb(46, 241, 46);">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </section>
   
       </section>
   
@@ -67,10 +75,12 @@
   
 
 
-
+  <footer>
+    <div>
+      <h4> Aris Ford Hall | Email: adfh91@yahoo.com | Phone: 216-555-5555 </h4>
+    </div>
+  </footer>
   
-
-
 </body>
 
 </html>
