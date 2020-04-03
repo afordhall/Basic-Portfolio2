@@ -53,7 +53,7 @@ body {
 
 .row {
     max-width: 900px;
-    margin:  50px;
+    margin:  10px;
 }
 
 .auth-image {
@@ -184,14 +184,31 @@ body {
   }
   
   footer {
-    background-color: #04145c;
-    color:white;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    margin-top: auto;
-
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  background-color:#04145c;
+  color: white;
+  text-align: center;
   }
 
   h4{
     text-align: center;
-  }
+  } 
+
+  img {
+    width: 100%;
+    
+}
+  .link-image {
+    border-radius: 50px;
+    height: 150px;
+    cursor: pointer;
+}
+
+.text-center {
+  size: 10vh;
+}
